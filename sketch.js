@@ -52,7 +52,7 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(windowWidth,windowHeight);
+  createCanvas(displayWidth,displayHeight,WEBGL);
   engine = Engine.create();
   world = engine.world;
 
